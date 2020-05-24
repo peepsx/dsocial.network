@@ -409,6 +409,25 @@ button:focus {
 /*------------------------------------
   Custom Css
 ------------------------------------*/
+a.custom-link-desc {
+    position: relative;
+    left: -60px;
+}
+.modal-header .close {
+    margin: 0;
+}
+.modal-logo {
+    margin-bottom: 20px;
+}
+.modal-logo img {
+    max-width: 59px;
+}
+h2.modal-title {
+    margin: auto;
+}
+.modal-footer button.btn.btn-primary {
+    margin: auto;
+}
 
 
 /* .display-3 {
@@ -6580,12 +6599,12 @@ button:focus {
 }
 
 @media (min-width: 576px) { /*commnet open by me */ 
-    .position-absolute-bottom-0--sm {
+    /* .position-absolute-bottom-0--sm {
         position: absolute;
         right: 0;
         bottom: 0;
         left: 0;
-    }
+    } */
 }
 
 @media (min-width: 768px) {
