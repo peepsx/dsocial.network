@@ -6603,12 +6603,12 @@ h2.modal-title {
 }
 
 @media (min-width: 576px) { /*commnet open by me */ 
-    .position-absolute-bottom-0--sm {
+    /* .position-absolute-bottom-0--sm {
         position: absolute;
         right: 0;
         bottom: 0;
         left: 0;
-    }
+    } */
 }
 
 @media (min-width: 768px) {
