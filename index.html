@@ -27,12 +27,25 @@
     <link rel="stylesheet" href="assets/vendor/font-awesome/css/all.min.css">
     <link rel="stylesheet" href="assets/vendor/custombox/dist/custombox.min.css">
     <link rel="stylesheet" href="assets/vendor/animate.css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/sticky-footer.css">
 
     <!-- CSS Space Template -->
     <link rel="stylesheet" href="assets/css/theme.css">
 </head>
 
 <body>
+        <div id="mySidebar" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                        <a href="https://peepsx.com/peeros.html">PeerOS</a>
+                        <a href="https://peepsid.com">PeepsID</a>
+                        <a href="https://dbrowser.com">dBrowser</a>
+                        <a href="https://peepsx.com/dwallet.html">dWallet</a>
+                        <a  class="active" href="https://dsocial.network">dSocial</a>
+                        <a href="https://dsearch.network">dSearch</a>
+                        <a href="https://dnames.network">dNames</a>
+                        <a href="https://dwebx.org">dWeb</a>
+                        <a href="https://arisen.network">Developers</a>
+    </div>
 
     <!-- ========== HEADER ========== -->
     <header id="header" class="u-header u-header--abs-top">
@@ -43,18 +56,32 @@
                     <!-- Logo -->
                     <div class="col-4 col-sm-6 mobile_menu">
                         <a class="navbar-brand u-header__navbar-brand" href="index.html" aria-label="Distributed Webs">
-                            <center><img class="u-header__navbar-brand-default" height="50px" src="assets/img/logos/dweb-logo.png" alt="arisen Logo"></center>
-                            <img class="u-header__navbar-brand-mobile" width="150px" src="assets/img/logos/dweb-logo.png" alt="arisen Logo">
+                            <center><img class="u-header__navbar-brand-default" height="50px" src="assets/img/logos/dsocial.png" alt="arisen Logo"></center>
+                            <img class="u-header__navbar-brand-mobile" width="150px" src="assets/img/logos/dsocial.png" alt="arisen Logo">
                         </a>
                     </div>
                     <!-- End Logo -->
+                                        <!-- Desktop Navbar -->
+                    <ul class="col-sm-7 nav navbar-nav desktop-nav" id="myNavbar">
+                        <li><a href="https://peepsx.com/peeros.html">PeerOS</a></li>
+                        <li><a href="https://peepsid.com">PeepsID</a></li>
+                        <li><a href="https://dbrowser.com">dBrowser</a></li>
+                        <li><a href="https://peepsx.com/dwallet.html">dWallet</a></li>
+                        <li class="active"><a href="https://dsocial.network">dSocial</a></li>
+                        <li><a href="https://dsearch.network">dSearch</a></li>
+                        <li><a href="https://dnames.network">dNames</a></li>
+                        <li><a href="https://dwebx.org">dWeb</a></li>
+                        <li ><a href="https://arisen.network">Developers</a></li>
+                    </ul>
+                    <!-- Desktop End Navbar -->
 
                     <!-- Button -->
-                    <div class="col-8 col-sm-6 text-right mobile_menu">
+                    <div class="col-8 col-sm-2 text-right mobile_menu">
                         <span id="rix-price" class="rsn-price"></span>
-                        <a class="btn btn-sm btn-primary" href="https://join.peepsx.com " role="button" target="_blank">
-                            Spread The Revolution
+                        <a class="btn btn-sm btn-primary" style="background-color: rgb(83, 86, 86); border-color: rgb(83, 86, 86);" href="https://peepsx.com/fund" role="button" target="_blank">
+                            Help Fund The Revolution
                         </a>
+                        <button class="openbtn" onclick="openNav()">☰</button>
                     </div>
                     <!-- End Button -->
                 </nav>
@@ -73,17 +100,17 @@
                     <div class="w-lg-60 text-center mx-lg-auto content_web">
                         <!-- Title -->
                         <div class="mb-4">
-                            <h1 class="display-3 font-size-48--md-down font-weight-medium">The Patriot's Social Network</h1>
+                            <h1 class="display-3 font-size-48--md-down font-weight-medium">the people's network</h1>
                             <p class="lead">
-                                dSocial will soon be the world's first truly decentralized social network, where censorship is impossible and users earn money for their posts. dSocial is a new kind of app that can never be seized or taken offline by rogue actors or governments, nor can it be backed. Welcome to the future, Patriot. Reserve your PeepsID now and join the decentralized revolution.
+                                At Peeps, we're launching the world's first truly decentralized social network, where censorship is impossible and users control and earn for the data they curate. It's a new kind of application that can never be seized or taken offline by rogue corporations or tyrannical governments. Welcome to freedom, Patriot. Signup for dSocial, earn some free money in the process and help us spread the word that Twitter's days are numbered.
                             </p>
                             
-                            <a class="btn btn-sm btn-primary " href="https://signup.peepsid.com" role="button" target="_blank">
-                                Reserve Your PeepsID  </a>
-                            <a class="btn btn-sm btn-primary" href="https://steemit.com/@peepsx/the-decentralized-social-network-youve-been-waiting-on" role="button" target="_blank">
+                            <a class="btn btn-sm btn-primary " style="background-color: rgb(83, 86, 86); border-color: rgb(83, 86, 86);"href="https://signup.dsocial.network" role="button" target="_blank">
+                                Signup for dSocial  </a>
+                            <a class="btn btn-sm btn-primary" style="background-color: rgb(83, 86, 86); border-color: rgb(83, 86, 86);"href="https://github.com/peepsx/dsocial-whitepaper" role="button" target="_blank">
                                 About dSocial </a>
                             <div class="custom-link-desc">
-                                    <a href="#" data-toggle="modal" data-target="#myModal">What Is A PeepsID?</a>
+                                    <a href="#" data-toggle="modal" style="color: rgb(83, 86, 86);"data-target="#myModal">What Is A PeepsID?</a>
                             </div>
 
                             <!-- Modal -->
@@ -106,7 +133,7 @@
                 <img class="dSearch" src="assets/img/dseek.png" alt="dSearch_logo" />
                 <img class="dnames" src="assets/img/dnames.png" alt="dnames_logo" />
             </div>
-          <h5>A PeepsID can be used to login to Peeps-based application. Truthfully, it's the only account you will ever need for the decentralized web and best of all, it's virtually un-hackable and cryptographically secure</h5>
+          <h5>A PeepsID is used to login to Peeps applications like dSocial, dSearch, dNames, dWallet and more. It's the only account you will ever need for the decentralized web and best of all, it's virtually impossible to hack and secured by the laws of mathematics. It's what we call, actual security. Get yours now, it literally takes seconds.</h5>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
@@ -123,19 +150,19 @@
                         <!-- Countdown -->
                         <div class="js-countdown row" data-end-date="2020/8/01" data-month-format="%m" data-days-format="%D" data-hours-format="%H" data-minutes-format="%M" data-seconds-format="%S">
                             <div class="col-6 col-sm-3 mb-7 mb-sm-0">
-                                <span class="js-cd-days d-block display-4 text-primary font-weight-medium"></span>
+                                <span class="js-cd-days d-block display-4  font-weight-medium" style="color: rgb(83, 86, 86);"></span>
                                 <span class="d-block h5 font-weight-normal mb-0">Days</span>
                             </div>
                             <div class="col-6 col-sm-3 mb-7 mb-sm-0">
-                                <span class="js-cd-hours d-block display-4 text-primary font-weight-medium"></span>
+                                <span class="js-cd-hours d-block display-4 text-p rimary font-weight-medium" style="color: rgb(83, 86, 86);"></span>
                                 <span class="d-block h5 font-weight-normal mb-0">Hours</span>
                             </div>
                             <div class="col-6 col-sm-3">
-                                <span class="js-cd-minutes d-block display-4 text-primary font-weight-medium"></span>
+                                <span class="js-cd-minutes d-block display-4  font-weight-medium" style="color: rgb(83, 86, 86);"></span>
                                 <span class="d-block h5 font-weight-normal mb-0">Mins</span>
                             </div>
                             <div class="col-6 col-sm-3">
-                                <span class="js-cd-seconds d-block display-4 text-primary font-weight-medium"></span>
+                                <span class="js-cd-seconds d-block display-4  font-weight-medium" style="color: rgb(83, 86, 86);"></span>
                                 <span class="d-block h5 font-weight-normal mb-0">Secs</span>
                             </div>
                         </div>
@@ -183,9 +210,16 @@
         </div>
         <div class="container text-center space-1">
             <p class="small mb-0">&copy 2020 Peeps. All rights reserved.</p>
+            <p class="powered-by small mb-0">
+                Powered by <a href="https://peepsx.com" target="_blank"><img src="assets/img/logos/arisen-icon.png" alt="peeps-logo"></a> made In <img src="assets/img/logos/american-flag.jpg" style="height: 27px; width: 50px" alt="">
+            </p>
         </div>
     </footer>
     <!-- ========== END FOOTER ========== -->
+    <div class="u-sticky-footer">
+        <img src="assets/img/logos/arisen-icon.png" alt="dweb-logo">
+        <p>You can view this website as a dSite on the dWeb at <a href="https://peepsx.com">dweb://arisen.network</a></p>
+    </div>
 
     <!-- ========== SECONDARY CONTENTS ========== -->
     <!-- Subscribe for Updates Modal Window -->
@@ -252,7 +286,17 @@
 
     <!-- JS Plugins Init. -->
     <script>
+                // slide Nav bar from left
+        function openNav() {
+             document.getElementById("mySidebar").style.width = "250px";
+            //  document.getElementById("header").style.marginLeft = "250px";
+        }
 
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            //  document.getElementById("header").style.marginLeft= "0";
+        }
+        // slide Nav bar from left end
          axios.get('https://nv6khovry9.execute-api.us-east-1.amazonaws.com/dev/rsn_price_from_bts')
             .then(function (response) {
             document.getElementById('rix-price').innerHTML = `RIX Price : $ ${parseFloat(response.data.data.USD.price).toFixed(4)}`;
