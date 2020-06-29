@@ -428,6 +428,7 @@ button:focus {
 }
 h2.modal-title {
     margin: auto;
+    font-size: 28px !important;
 }
 .modal-footer button.btn.btn-primary {
     margin: auto;
@@ -7398,7 +7399,7 @@ h1{
 }
 p,li{
     font-family: Montserrat;
-    font-weight: 501 !important;
+    font-weight: 500 !important;
 }
 span{
     font-family: Montserrat;
