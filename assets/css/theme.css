@@ -14,7 +14,10 @@ main {
     position: relative;
 }
 
-p {
+p,a {
+    color: #646f79;
+}
+a:hover {
     color: #646f79;
 }
 
@@ -7517,4 +7520,8 @@ ul.desktop-nav li.active a {
   @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
+  }
+  
+  .countercolor {
+    color: rgb(71,116,182);
   }
